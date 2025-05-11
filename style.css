@@ -173,3 +173,145 @@
     margin-left: -60%;
   
   }
+
+
+  
+  
+/* Tablets and small laptops */
+@media (max-width: 999px) {
+    .cdn {
+      display: none;
+    }
+  
+    .navigation_bar {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      background-color: #222;
+      flex-direction: column;
+      align-items: center;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      padding-bottom: 1rem;
+    }
+  
+    .navigation_bar.active {
+      transform: translateX(0);
+    }
+  
+    .navigation_bar .links {
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1.5rem 0;
+    }
+  
+    .navigation_bar .cdn {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      margin-top: 1rem;
+    }
+  
+    .burger {
+      display: flex;
+    }
+    .feanes {
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+    
+  
+    }
+    .col-md {
+      
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      /* flex-wrap: wrap; */
+      padding: 1rem;
+    }
+  
+    .feanes img {
+      width: 10rem;
+      height: 10rem;
+      margin-bottom: 1rem;
+    }
+  
+    .detail-box h1 {
+      font-size: 2.5rem;
+    }
+  
+    .detail-box span {
+      font-size: 2rem;
+    }
+  
+    .detail-box h6 {
+      font-size: 1.3rem;
+    }
+  
+    button {
+      font-size: 1.6rem;
+      height: 3.2rem;
+      width: 100%;
+      max-width: 15rem;
+      margin: 1.2rem auto 0 auto; /* Center the button */
+    }
+}  
+
+
+
+
+
+/* Mobile phones */
+@media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      padding: 60px 10px;
+    }
+  
+    .content {
+      margin: 0 10px;
+      margin-left: 55%;
+      text-align: center;
+      
+    }
+    .content h3{
+      font-size: 1.75rem;
+      margin-left: -101%;
+    }
+    .content p{
+      font-size: 1.29rem;
+      color: whitesmoke;
+    }
+    .feanes {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+   
+    }
+   
+  
+    .feanes img {
+      width: 9rem;
+      height: 9rem;
+    }
+  
+    .detail-box h1 {
+      font-size: 2rem;
+    }
+  
+    .detail-box span {
+      font-size: 1.5rem;
+    }
+  
+    .detail-box h6 {
+      font-size: 1.2rem;
+    }
+  
+    button {
+      font-size: 1.4rem;
+      height: 3rem;
+      width: 100%;
+      max-width: 13rem;
+      margin: 1.2rem auto 0 auto; /* Center the button */
+    }
+}  
