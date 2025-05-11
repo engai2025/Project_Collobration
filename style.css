@@ -176,6 +176,71 @@
 
 
   
+ 
+.col-md {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  padding: 1rem;
+}
+
+.noon1 {
+  background-color: black;
+  width: 100%;
+  max-width: 60rem;
+  height: auto;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.feanes {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: white;
+  align-items: center;
+  gap: 1rem;
+}
+
+.feanes img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 5px solid yellow;
+  margin: 0 auto;
+}
+
+.detail-box h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.detail-box span {
+  font-size: 2.2rem;
+}
+
+.detail-box h6 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+button {
+  background-color: rgb(170, 231, 50);
+  width: 100%;
+  max-width: 15rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 4rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: block;
+  color: white;
+}
+
+  
   
 /* Tablets and small laptops */
 @media (max-width: 999px) {
