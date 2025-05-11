@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="nav_container">
+        <div class="nav_bar">
+          <a href="#" class="logo">Feane</a>
+          <nav class="navigation_bar" id="navMenu">
+            <ul class="links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">MENU</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Book Table</a></li>
+            </ul>
+  
+            <ul class="cdn">
+              <li><i class="fa fa-user"></i></li>
+              <li><i class="fa fa-shopping-cart"></i></li>
+              <li><i class="fas fa-search"></i></li>
+              <li><button>Order Now</button></li>
+            </ul>
+          </nav>
+  
+          <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+
+    <script>
+        const burger = document.getElementById("burger");
+      const navMenu = document.getElementById("navMenu");
+  
+      burger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+        burger.classList.toggle("toggle");
+      });
+     </script>
 </body>
 </html>
